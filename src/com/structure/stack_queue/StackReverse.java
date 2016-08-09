@@ -10,6 +10,7 @@ import java.util.Stack;
  * 2016年8月1日 下午2:24:47
  */
 public class StackReverse {
+	
 	// 声明一个栈，用于将给的数组转为栈来操作
 	private Stack<Integer> s = new Stack<Integer>();
 	public int[] reverseStack(int[] A, int n) {
