@@ -1,0 +1,2 @@
+# DataStructureAlgorithm
+- This project is about Data Structure and Algorithm， it contains a number of the basic Sorting Algorithm and Data Structure . In addition, there are more case and with some solution thinking
