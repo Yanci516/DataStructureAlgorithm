@@ -19,14 +19,15 @@ package com.binary_search;
  */
 public class GetLocalMin {
 	public int getLessIndex(int[] arr) {
-		if (arr.length == 0 || arr == null) {
+		if (arr == null || arr.length == 0) {
 			return -1;
 		}
-		if (arr[0] < arr[1]) {
+		// 比较的顺序不能错，若长度为1则不用判断后面条件
+		if (arr.length == 1 || arr[0] < arr[1]) {
 			return 0;
 		}
 		if (arr[arr.length-1] < arr[arr.length-2]) {
-			return arr.length;
+			return arr.length - 1;
 		}
 		int left = 1;
 		int right = arr.length - 2;
