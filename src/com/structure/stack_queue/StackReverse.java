@@ -30,7 +30,7 @@ public class StackReverse {
 		if (stack.isEmpty()) {
 			return;
 		}
-		// 获取堆底元素
+		// 递归获取堆底元素
 		int bottom = get(stack); 
 		reverse(stack); //递归调用 reverse()
 		stack.push(bottom);
