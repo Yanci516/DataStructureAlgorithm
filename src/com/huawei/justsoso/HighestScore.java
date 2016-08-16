@@ -1,4 +1,4 @@
-package com.huawei;
+package com.huawei.justsoso;
 
 import java.io.BufferedReader;
 import java.io.IOException;
